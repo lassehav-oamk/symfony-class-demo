@@ -23,6 +23,7 @@ class TodoController extends AbstractController
 
     public function viewItem($itemId)
     {
-        return $this->render('todo/viewItem.html.twig');
+        $itemData = $this->getDoctrine()->getRepository(TodoItem::class)->find($itemId);
+        return $this->render('todo/viewItem.html.twig', array('itemData' => $itemData));
     }
 }

@@ -16,7 +16,7 @@
                 <tr>
                     <td>{{ item.description }}</td>
                     <td>{{ item.dueDate | date('d.m.Y') }}</td>
-                    <td> Buttons here later </td>
+                    <td><a href="{{ path('viewTodoItem', {'itemId': item.id}) }}">Details</a> </td>
                 </tr>
                 {% endfor %}
             </tbody>
