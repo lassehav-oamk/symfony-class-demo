@@ -1,0 +1,26 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <h1>Todolist</h1>
+    <div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Description</th>
+                    <th>Due date</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for item in listData %}
+                <tr>
+                    <td>{{ item.description }}</td>
+                    <td>{{ item.dueDate | date('d.m.Y') }}</td>
+                    <td> Buttons here later </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+
+{% endblock %}

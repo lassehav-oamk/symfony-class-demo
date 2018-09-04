@@ -1,0 +1,28 @@
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
+
+index:
+    path: /
+    controller: App\Controller\HelloController::index
+
+helloWorld:
+    path: /hello/{firstName}/{lastName}
+    controller: App\Controller\HelloController::hello
+
+test:
+    path: /test
+    controller: App\Controller\HelloController::test
+
+twigdemo:
+    path: /twig
+    controller: App\Controller\HelloController::twig
+
+
+todoList:
+    path: /todoList
+    controller: App\Controller\TodoController::list
+
+viewTodoItem:
+    path: /todoList/item/{itemId}
+    controller: App\Controller\TodoController::viewItem
