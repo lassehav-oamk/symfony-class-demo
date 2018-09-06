@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/symfonyApp/vendor/doctrine/doctrine-fixtures-bundle" />
+      <path value="$PROJECT_DIR$/symfonyApp/vendor/doctrine/data-fixtures" />
+      <path value="$PROJECT_DIR$/symfonyApp/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/symfonyApp/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/symfonyApp/vendor/symfony/config" />
+      <path value="$PROJECT_DIR$/symfonyApp/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/symfonyApp/vendor/symfony/flex" />
+      <path value="$PROJECT_DIR$/symfonyApp/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/symfonyApp/vendor/symfony/dotenv" />
+      <path value="$PROJECT_DIR$/symfonyApp/vendor/symfony/doctrine-bridge" />
+      <path value="$PROJECT_DIR$/symfonyApp/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/symfonyApp/vendor/symfony/orm-pack" />
+      <path value="$PROJECT_DIR$/symfonyApp/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/symfonyApp/vendor/symfony/maker-bundle" />
+      <path value="$PROJECT_DIR$/symfonyApp/vendor/symfony/templating" />
+      <path value="$PROJECT_DIR$/symfonyApp/vendor/symfony/filesystem" />
+      <path value="$PROJECT_DIR$/symfonyApp/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/symfonyApp/vendor/symfony/dependency-injection" />
+      <path value="$PROJECT_DIR$/symfonyApp/vendor/symfony/form" />
+      <path value="$PROJECT_DIR$/symfonyApp/vendor/symfony/debug" />
+      <path value="$PROJECT_DIR$/symfonyApp/vendor/symfony/intl" />
+      <path value="$PROJECT_DIR$/symfonyApp/vendor/symfony/framework-bundle" />
+      <path value="$PROJECT_DIR$/symfonyApp/vendor/symfony/cache" />
+      <path value="$PROJECT_DIR$/symfonyApp/vendor/symfony/property-access" />
+      <path value="$PROJECT_DIR$/symfonyApp/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/symfonyApp/vendor/symfony/inflector" />
+      <path value="$PROJECT_DIR$/symfonyApp/vendor/symfony/options-resolver" />
+      <path value="$PROJECT_DIR$/symfonyApp/vendor/symfony/polyfill-intl-icu" />
+      <path value="$PROJECT_DIR$/symfonyApp/vendor/jdorn/sql-formatter" />
+      <path value="$PROJECT_DIR$/symfonyApp/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/symfonyApp/vendor/doctrine/doctrine-cache-bundle" />
+      <path value="$PROJECT_DIR$/symfonyApp/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/symfonyApp/vendor/doctrine/reflection" />
+      <path value="$PROJECT_DIR$/symfonyApp/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/symfonyApp/vendor/doctrine/event-manager" />
+      <path value="$PROJECT_DIR$/symfonyApp/vendor/doctrine/annotations" />
+      <path value="$PROJECT_DIR$/symfonyApp/vendor/doctrine/orm" />
+      <path value="$PROJECT_DIR$/symfonyApp/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/symfonyApp/vendor/doctrine/doctrine-bundle" />
+      <path value="$PROJECT_DIR$/symfonyApp/vendor/doctrine/common" />
+      <path value="$PROJECT_DIR$/symfonyApp/vendor/doctrine/collections" />
+      <path value="$PROJECT_DIR$/symfonyApp/vendor/doctrine/migrations" />
+      <path value="$PROJECT_DIR$/symfonyApp/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/symfonyApp/vendor/doctrine/doctrine-migrations-bundle" />
+      <path value="$PROJECT_DIR$/symfonyApp/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/symfonyApp/vendor/doctrine/persistence" />
+      <path value="$PROJECT_DIR$/symfonyApp/vendor/ocramius/package-versions" />
+      <path value="$PROJECT_DIR$/symfonyApp/vendor/ocramius/proxy-manager" />
+      <path value="$PROJECT_DIR$/symfonyApp/vendor/zendframework/zend-code" />
+      <path value="$PROJECT_DIR$/symfonyApp/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/symfonyApp/vendor/zendframework/zend-eventmanager" />
+      <path value="$PROJECT_DIR$/symfonyApp/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/symfonyApp/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/symfonyApp/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/symfonyApp/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/symfonyApp/vendor/composer" />
+      <path value="$PROJECT_DIR$/symfonyApp/vendor/symfony/twig-bridge" />
+      <path value="$PROJECT_DIR$/symfonyApp/vendor/symfony/twig-bundle" />
+    </include_path>
+  </component>
+  <component name="PhpProjectSharedConfiguration" php_language_level="7.1" />
+</project>

@@ -13,4 +13,10 @@
     <p>
        Completed: {{ itemData.isDone }}
     </p>
+
+    <div>
+        {{ form_start(editForm) }}
+        {{ form_widget(editForm) }}
+        {{ form_end(editForm) }}
+    </div>
 {% endblock %}
