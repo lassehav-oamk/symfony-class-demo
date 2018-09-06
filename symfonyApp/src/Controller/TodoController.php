@@ -18,11 +18,35 @@ use Symfony\Component\Form\Extension\Core\Type\TextType;
 
 class TodoController extends AbstractController
 {
-    public function list()
+    public function list(Request $request)
     {
+
+
+        $newTodoItem = new TodoItem();
+        $form = $this->createFormBuilder($newTodoItem)
+            ->add('description', TextType::class)
+            ->add('dueDate', DateType::class)
+            ->add('save', SubmitType::class, array('label' => 'Add new'))
+            ->getForm();
+
+        $form->handleRequest($request);
+
+        if($form->isSubmitted())
+        {
+            $newTodoItem = $form->getData();
+            $newTodoItem->setIsDone(false);
+            $entityManager = $this->getDoctrine()->getManager();
+            $entityManager->persist($newTodoItem);
+            $entityManager->flush();
+
+            $this->redirectToRoute('todoList');
+        }
+
         $listData = $this->getDoctrine()->getRepository(TodoItem::class)->findAll();
 
-        return $this->render('todo/list.html.twig', array('listData' => $listData));
+        return $this->render('todo/list.html.twig',
+                                    array('listData' => $listData,
+                                          'addNewItemForm' => $form->createView()));
     }
 
     public function viewItem(Request $request, $itemId)

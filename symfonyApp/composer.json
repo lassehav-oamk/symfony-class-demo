@@ -5,11 +5,13 @@
         "php": "^7.1.3",
         "ext-ctype": "*",
         "ext-iconv": "*",
+        "symfony/asset": "*",
         "symfony/console": "*",
         "symfony/flex": "^1.1",
         "symfony/form": "*",
         "symfony/framework-bundle": "*",
         "symfony/orm-pack": "^1.0",
+        "symfony/profiler-pack": "^1.0",
         "symfony/templating": "*",
         "symfony/twig-bundle": "*",
         "symfony/yaml": "*"

@@ -2,12 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87731a6d-e70a-47e9-bcaa-56fb652b0864" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/symfonyApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/symfonyApp/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/empty-vagrant-vm-with-symfony.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/empty-vagrant-vm-with-symfony.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/symfonyApp/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/symfonyApp/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/symfonyApp/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfonyApp/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfonyApp/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/symfonyApp/config/bundles.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/symfonyApp/src/Controller/TodoController.php" beforeDir="false" afterPath="$PROJECT_DIR$/symfonyApp/src/Controller/TodoController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/symfonyApp/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfonyApp/symfony.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfonyApp/templates/todo/viewItem.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/symfonyApp/templates/todo/viewItem.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfonyApp/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/symfonyApp/templates/base.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfonyApp/templates/todo/list.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/symfonyApp/templates/todo/list.html.twig" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,24 +32,34 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="php" value="343" />
-          <entry key="twig" value="26" />
+          <entry key="css" value="53" />
+          <entry key="php" value="506" />
+          <entry key="twig" value="190" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PHP" value="343" />
-          <entry key="Twig" value="26" />
+          <entry key="CSS" value="53" />
+          <entry key="PHP" value="506" />
+          <entry key="Twig" value="190" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="twig" value="1" />
+          <entry key="css" value="2" />
+          <entry key="php" value="1" />
+          <entry key="sh" value="1" />
+          <entry key="twig" value="3" />
+          <entry key="yaml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Twig" value="1" />
+          <entry key="CSS" value="2" />
+          <entry key="PHP" value="1" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Twig" value="3" />
+          <entry key="YAML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.php.rename.constructor" />
@@ -58,11 +72,50 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/symfonyApp/src/Controller/TodoController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
+            <state relative-caret-position="648">
+              <caret line="41" column="34" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="34" />
+              <folding>
+                <element signature="e#119#143#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/symfonyApp/public/css/main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="81">
+              <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/symfonyApp/templates/base.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="10" column="28" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/symfonyApp/config/routes.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="567">
+              <caret line="21" column="8" selection-start-line="21" selection-end-line="21" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/symfonyApp/src/Entity/TodoItem.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="594">
+              <caret line="67" column="29" selection-start-line="67" selection-start-column="20" selection-end-line="67" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -70,8 +123,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/symfonyApp/templates/todo/viewItem.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+            <state>
+              <caret selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/symfonyApp/templates/todo/list.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="81">
+              <caret line="3" column="4" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/symfonyApp/public/css/list.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="81">
+              <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -86,6 +157,10 @@
       <list>
         <option value="$PROJECT_DIR$/symfonyApp/templates/todo/viewItem.html.twig" />
         <option value="$PROJECT_DIR$/symfonyApp/src/Controller/TodoController.php" />
+        <option value="$PROJECT_DIR$/symfonyApp/templates/base.html.twig" />
+        <option value="$PROJECT_DIR$/symfonyApp/public/css/main.css" />
+        <option value="$PROJECT_DIR$/symfonyApp/public/css/list.css" />
+        <option value="$PROJECT_DIR$/symfonyApp/templates/todo/list.html.twig" />
       </list>
     </option>
   </component>
@@ -158,13 +233,19 @@
       <path value="$PROJECT_DIR$/symfonyApp/vendor/composer" />
       <path value="$PROJECT_DIR$/symfonyApp/vendor/symfony/twig-bridge" />
       <path value="$PROJECT_DIR$/symfonyApp/vendor/symfony/twig-bundle" />
+      <path value="$PROJECT_DIR$/symfonyApp/vendor/symfony/stopwatch" />
+      <path value="$PROJECT_DIR$/symfonyApp/vendor/symfony/profiler-pack" />
+      <path value="$PROJECT_DIR$/symfonyApp/vendor/symfony/asset" />
+      <path value="$PROJECT_DIR$/symfonyApp/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/symfonyApp/vendor/symfony/web-profiler-bundle" />
+      <path value="$PROJECT_DIR$/symfonyApp/vendor/symfony/var-dumper" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1618" />
-    <option name="y" value="9" />
-    <option name="width" value="1731" />
-    <option name="height" value="1056" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1672" />
+    <option name="y" value="15" />
+    <option name="width" value="1820" />
+    <option name="height" value="1111" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -182,20 +263,25 @@
             <path>
               <item name="empty-vagrant-vm-with-symfony" type="b2602c69:ProjectViewProjectNode" />
               <item name="empty-vagrant-vm-with-symfony" type="462c0819:PsiDirectoryNode" />
+              <item name=".vagrant" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="empty-vagrant-vm-with-symfony" type="b2602c69:ProjectViewProjectNode" />
+              <item name="empty-vagrant-vm-with-symfony" type="462c0819:PsiDirectoryNode" />
               <item name="symfonyApp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="empty-vagrant-vm-with-symfony" type="b2602c69:ProjectViewProjectNode" />
               <item name="empty-vagrant-vm-with-symfony" type="462c0819:PsiDirectoryNode" />
               <item name="symfonyApp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="empty-vagrant-vm-with-symfony" type="b2602c69:ProjectViewProjectNode" />
               <item name="empty-vagrant-vm-with-symfony" type="462c0819:PsiDirectoryNode" />
               <item name="symfonyApp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Controller" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="empty-vagrant-vm-with-symfony" type="b2602c69:ProjectViewProjectNode" />
@@ -243,19 +329,19 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1536211908444</updated>
-      <workItem from="1536211911740" duration="1536000" />
+      <workItem from="1536211911740" duration="5758000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1536000" />
+    <option name="totallyTimeSpent" value="5758000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1618" y="9" width="1731" height="1056" extended-state="0" />
+    <frame x="1592" y="-8" width="1936" height="1176" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20281002" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18023887" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
@@ -282,17 +368,69 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/symfonyApp/templates/todo/viewItem.html.twig">
+    <entry file="file://$PROJECT_DIR$/.vagrant/VagrantBootstrap.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+        <state relative-caret-position="243">
+          <caret line="9" column="66" selection-start-line="9" selection-start-column="62" selection-end-line="9" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/symfonyApp/src/Entity/TodoItem.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="67" column="29" selection-start-line="67" selection-start-column="20" selection-end-line="67" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/symfonyApp/config/routes.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="21" column="8" selection-start-line="21" selection-end-line="21" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/symfonyApp/src/Controller/TodoController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
+        <state relative-caret-position="648">
+          <caret line="41" column="34" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="34" />
+          <folding>
+            <element signature="e#119#143#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/symfonyApp/public/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/symfonyApp/public/css/list.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/symfonyApp/templates/todo/viewItem.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/symfonyApp/templates/base.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="28" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/symfonyApp/templates/todo/list.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="4" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
         </state>
       </provider>
     </entry>

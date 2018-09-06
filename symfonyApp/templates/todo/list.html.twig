@@ -1,7 +1,18 @@
 {% extends 'base.html.twig' %}
 
+{% block stylesheets %}
+    <link href="{{ asset('css/list.css') }}" rel="stylesheet" />
+{% endblock %}
+
 {% block body %}
     <h1>Todolist</h1>
+
+    <div>
+        {{ form_start(addNewItemForm) }}
+        {{ form_widget(addNewItemForm) }}
+        {{ form_end(addNewItemForm) }}
+    </div>
+
     <div>
         <table>
             <thead>
