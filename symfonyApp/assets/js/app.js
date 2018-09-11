@@ -11,6 +11,9 @@ require('../css/app.css');
 // Need jQuery? Install it with "yarn add jquery", then uncomment to require it.
 // var $ = require('jquery');
 
+import axios from 'axios';
+
+
 console.log('Hello Webpack Encore! Edit me in assets/js/app.js');
 
 function deleteButtonClicked(event)
@@ -18,6 +21,10 @@ function deleteButtonClicked(event)
     console.log(event);
     const itemId = event.target.getAttribute('data-id');
     console.log(itemId);
+
+    // send the HTTP REQ
+    axios.delete('/todoList/deleteItem/' + itemId)
+        .then(response => location.reload());
 }
 
 let deleteButtons = document.querySelectorAll('.deleteButton');
