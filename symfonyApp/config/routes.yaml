@@ -31,3 +31,8 @@ deleteTodoItem:
     path: /todoList/deleteItem/{itemId}
     controller: App\Controller\TodoController::deleteItem
     methods: [DELETE]
+
+toggleTodoItemDone:
+    path: /todoList/item/{itemId}/toggleIsDone
+    controller: App\Controller\TodoController::toggleItemIsDone
+    methods: [POST]

@@ -82,4 +82,15 @@ class TodoController extends AbstractController
 
         return new Response();
     }
+
+    public function toggleItemIsDone($itemId)
+    {
+        $itemData = $this->getDoctrine()->getRepository(TodoItem::class)->find($itemId);
+        $itemData->setIsDone(!$itemData->getIsDone());
+        $entityManager = $this->getDoctrine()->getManager();
+        $entityManager->persist($itemData);
+        $entityManager->flush();
+
+        return new Response();
+    }
 }

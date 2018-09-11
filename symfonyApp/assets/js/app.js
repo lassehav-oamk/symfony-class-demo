@@ -27,6 +27,15 @@ function deleteButtonClicked(event)
         .then(response => location.reload());
 }
 
-let deleteButtons = document.querySelectorAll('.deleteButton');
+function completeButtonClicked(event)
+{
+    const itemId = event.target.getAttribute('data-id');
+    axios.post('/todoList/item/' + itemId + '/toggleIsDone')
+        .then(response => location.reload());
+}
 
+let deleteButtons = document.querySelectorAll('.deleteButton');
 deleteButtons.forEach(button => button.addEventListener('click', deleteButtonClicked));
+
+let isDoneButtons = document.querySelectorAll('.completeButton');
+isDoneButtons.forEach(button => button.addEventListener('click', completeButtonClicked));
