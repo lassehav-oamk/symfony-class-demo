@@ -15,13 +15,12 @@ use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\Form\Extension\Core\Type\DateType;
 use Symfony\Component\Form\Extension\Core\Type\SubmitType;
 use Symfony\Component\Form\Extension\Core\Type\TextType;
+use Symfony\Component\HttpFoundation\Response;
 
 class TodoController extends AbstractController
 {
     public function list(Request $request)
     {
-
-
         $newTodoItem = new TodoItem();
         $form = $this->createFormBuilder($newTodoItem)
             ->add('description', TextType::class)
@@ -72,5 +71,15 @@ class TodoController extends AbstractController
         return $this->render('todo/viewItem.html.twig',
                             array('itemData' => $itemData,
                                   'editForm' => $form->createView()));
+    }
+
+    public function deleteItem($itemId)
+    {
+        $itemData = $this->getDoctrine()->getRepository(TodoItem::class)->find($itemId);
+        $entityManager = $this->getDoctrine()->getManager();
+        $entityManager->remove($itemData);
+        $entityManager->flush();
+
+        return new Response();
     }
 }

@@ -26,3 +26,8 @@ todoList:
 viewTodoItem:
     path: /todoList/item/{itemId}
     controller: App\Controller\TodoController::viewItem
+
+deleteTodoItem:
+    path: /todoList/deleteItem/{itemId}
+    controller: App\Controller\TodoController::deleteItem
+    methods: [DELETE]

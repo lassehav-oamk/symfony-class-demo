@@ -12,3 +12,14 @@ require('../css/app.css');
 // var $ = require('jquery');
 
 console.log('Hello Webpack Encore! Edit me in assets/js/app.js');
+
+function deleteButtonClicked(event)
+{
+    console.log(event);
+    const itemId = event.target.getAttribute('data-id');
+    console.log(itemId);
+}
+
+let deleteButtons = document.querySelectorAll('.deleteButton');
+
+deleteButtons.forEach(button => button.addEventListener('click', deleteButtonClicked));
