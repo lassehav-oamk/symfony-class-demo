@@ -41,7 +41,11 @@ class TodoController extends AbstractController
             $this->redirectToRoute('todoList');
         }
 
-        $listData = $this->getDoctrine()->getRepository(TodoItem::class)->findAll();
+        /*$listData = $this->getDoctrine()->getRepository(TodoItem::class)->
+                        findBy(array('owner' => $this->getUser()));
+
+        */
+        $listData = $this->getUser()->getTodoItems();
 
         return $this->render('todo/list.html.twig',
                                     array('listData' => $listData,

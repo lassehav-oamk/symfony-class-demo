@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87731a6d-e70a-47e9-bcaa-56fb652b0864" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfonyApp/config/packages/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/symfonyApp/config/packages/security.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfonyApp/config/routes.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/symfonyApp/config/routes.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfonyApp/src/Controller/TodoController.php" beforeDir="false" afterPath="$PROJECT_DIR$/symfonyApp/src/Controller/TodoController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/symfonyApp/src/DataFixtures/TodoAppFixtures.php" beforeDir="false" afterPath="$PROJECT_DIR$/symfonyApp/src/DataFixtures/TodoAppFixtures.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfonyApp/templates/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/symfonyApp/templates/index.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfonyApp/templates/todo/list.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/symfonyApp/templates/todo/list.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfonyApp/src/Entity/TodoItem.php" beforeDir="false" afterPath="$PROJECT_DIR$/symfonyApp/src/Entity/TodoItem.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfonyApp/src/Entity/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/symfonyApp/src/Entity/User.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -85,7 +83,7 @@
           <entry key="dummy" value="7" />
           <entry key="gitignore" value="13" />
           <entry key="js" value="468" />
-          <entry key="php" value="363" />
+          <entry key="php" value="479" />
           <entry key="twig" value="657" />
           <entry key="yaml" value="698" />
         </counts>
@@ -94,7 +92,7 @@
         <counts>
           <entry key="CSS" value="23" />
           <entry key="JavaScript" value="468" />
-          <entry key="PHP" value="363" />
+          <entry key="PHP" value="479" />
           <entry key="PLAIN_TEXT" value="20" />
           <entry key="Twig" value="657" />
           <entry key="YAML" value="698" />
@@ -132,11 +130,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="525">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/symfonyApp/templates/todo/list.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="721">
-              <caret line="41" column="32" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
+            <state relative-caret-position="694">
+              <caret line="40" column="9" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -145,16 +143,16 @@
         <entry file="file://$PROJECT_DIR$/symfonyApp/src/Entity/TodoItem.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="530">
-              <caret line="67" column="29" selection-start-line="67" selection-start-column="20" selection-end-line="67" selection-end-column="29" />
+              <caret line="82" column="27" selection-start-line="82" selection-start-column="22" selection-end-line="82" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/symfonyApp/src/Controller/TodoController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2214">
-              <caret line="93" column="30" selection-start-line="93" selection-start-column="8" selection-end-line="93" selection-end-column="30" />
+            <state relative-caret-position="341">
+              <caret line="42" column="8" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="8" />
               <folding>
                 <element signature="e#119#143#0#PHP" expanded="true" />
               </folding>
@@ -192,10 +190,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/symfonyApp/src/Entity/User.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="21" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="21" />
+            <state relative-caret-position="189">
+              <caret line="106" column="32" selection-start-line="106" selection-start-column="20" selection-end-line="106" selection-end-column="32" />
               <folding>
-                <element signature="e#30#62#0#PHP" expanded="true" />
+                <element signature="e#30#78#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -204,8 +202,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/symfonyApp/src/DataFixtures/TodoAppFixtures.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="665">
-              <caret line="48" column="26" lean-forward="true" selection-start-line="48" selection-start-column="26" selection-end-line="48" selection-end-column="26" />
+            <state relative-caret-position="233">
+              <caret line="33" column="21" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -237,16 +235,16 @@
         <option value="$PROJECT_DIR$/symfonyApp/templates/base.html.twig" />
         <option value="$PROJECT_DIR$/symfonyApp/.gitignore" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/symfonyApp/src/Controller/TodoController.php" />
         <option value="$PROJECT_DIR$/symfonyApp/public/css/main.css" />
         <option value="$PROJECT_DIR$/symfonyApp/assets/js/app.js" />
         <option value="$PROJECT_DIR$/symfonyApp/src/Controller/DefaultController.php" />
         <option value="$PROJECT_DIR$/symfonyApp/src/Entity/User.php" />
         <option value="$PROJECT_DIR$/symfonyApp/templates/index.html.twig" />
-        <option value="$PROJECT_DIR$/symfonyApp/src/DataFixtures/TodoAppFixtures.php" />
         <option value="$PROJECT_DIR$/symfonyApp/config/packages/security.yaml" />
         <option value="$PROJECT_DIR$/symfonyApp/config/routes.yaml" />
         <option value="$PROJECT_DIR$/symfonyApp/templates/todo/list.html.twig" />
+        <option value="$PROJECT_DIR$/symfonyApp/src/DataFixtures/TodoAppFixtures.php" />
+        <option value="$PROJECT_DIR$/symfonyApp/src/Controller/TodoController.php" />
       </list>
     </option>
   </component>
@@ -466,12 +464,12 @@
       <updated>1536211908444</updated>
       <workItem from="1536211911740" duration="8138000" />
       <workItem from="1536643460151" duration="9948000" />
-      <workItem from="1536816086408" duration="4263000" />
+      <workItem from="1536816086408" duration="6167000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22349000" />
+    <option name="totallyTimeSpent" value="24253000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1592" y="-8" width="1936" height="1176" extended-state="6" />
@@ -597,16 +595,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/symfonyApp/src/Controller/TodoController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2214">
-          <caret line="93" column="30" selection-start-line="93" selection-start-column="8" selection-end-line="93" selection-end-column="30" />
-          <folding>
-            <element signature="e#119#143#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/symfonyApp/templates/twigdemo.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="81">
@@ -614,34 +602,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/symfonyApp/src/Entity/TodoItem.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="530">
-          <caret line="67" column="29" selection-start-line="67" selection-start-column="20" selection-end-line="67" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/symfonyApp/src/Entity/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="21" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="21" />
-          <folding>
-            <element signature="e#30#62#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/symfonyApp/templates/index.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="351">
           <caret line="13" column="15" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/symfonyApp/src/DataFixtures/TodoAppFixtures.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="48" column="26" lean-forward="true" selection-start-line="48" selection-start-column="26" selection-end-line="48" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -664,8 +628,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/symfonyApp/templates/todo/list.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="721">
-          <caret line="41" column="32" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
+        <state relative-caret-position="694">
+          <caret line="40" column="9" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/symfonyApp/src/Entity/TodoItem.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="530">
+          <caret line="82" column="27" selection-start-line="82" selection-start-column="22" selection-end-line="82" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/symfonyApp/src/DataFixtures/TodoAppFixtures.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="33" column="21" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/symfonyApp/src/Entity/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="106" column="32" selection-start-line="106" selection-start-column="20" selection-end-line="106" selection-end-column="32" />
+          <folding>
+            <element signature="e#30#78#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/symfonyApp/src/Controller/TodoController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="42" column="8" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="8" />
+          <folding>
+            <element signature="e#119#143#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
