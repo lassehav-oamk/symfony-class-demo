@@ -58,6 +58,8 @@
       <excludeFolder url="file://$MODULE_DIR$/symfonyApp/vendor/symfony/profiler-pack" />
       <excludeFolder url="file://$MODULE_DIR$/symfonyApp/vendor/symfony/property-access" />
       <excludeFolder url="file://$MODULE_DIR$/symfonyApp/vendor/symfony/routing" />
+      <excludeFolder url="file://$MODULE_DIR$/symfonyApp/vendor/symfony/security" />
+      <excludeFolder url="file://$MODULE_DIR$/symfonyApp/vendor/symfony/security-bundle" />
       <excludeFolder url="file://$MODULE_DIR$/symfonyApp/vendor/symfony/stopwatch" />
       <excludeFolder url="file://$MODULE_DIR$/symfonyApp/vendor/symfony/templating" />
       <excludeFolder url="file://$MODULE_DIR$/symfonyApp/vendor/symfony/twig-bridge" />

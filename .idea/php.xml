@@ -67,6 +67,8 @@
       <path value="$PROJECT_DIR$/symfonyApp/vendor/symfony/web-profiler-bundle" />
       <path value="$PROJECT_DIR$/symfonyApp/vendor/symfony/var-dumper" />
       <path value="$PROJECT_DIR$/symfonyApp/vendor/symfony/webpack-encore-pack" />
+      <path value="$PROJECT_DIR$/symfonyApp/vendor/symfony/security-bundle" />
+      <path value="$PROJECT_DIR$/symfonyApp/vendor/symfony/security" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="7.1" />
