@@ -20,3 +20,9 @@ toggleTodoItemDone:
     path: /todoList/item/{itemId}/toggleIsDone
     controller: App\Controller\TodoController::toggleItemIsDone
     methods: [POST]
+
+login:
+    path: /login
+
+logout:
+    path: /logout
