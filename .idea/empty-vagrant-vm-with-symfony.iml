@@ -31,6 +31,8 @@
       <excludeFolder url="file://$MODULE_DIR$/symfonyApp/vendor/psr/container" />
       <excludeFolder url="file://$MODULE_DIR$/symfonyApp/vendor/psr/log" />
       <excludeFolder url="file://$MODULE_DIR$/symfonyApp/vendor/psr/simple-cache" />
+      <excludeFolder url="file://$MODULE_DIR$/symfonyApp/vendor/sendgrid/php-http-client" />
+      <excludeFolder url="file://$MODULE_DIR$/symfonyApp/vendor/sendgrid/sendgrid" />
       <excludeFolder url="file://$MODULE_DIR$/symfonyApp/vendor/symfony/asset" />
       <excludeFolder url="file://$MODULE_DIR$/symfonyApp/vendor/symfony/cache" />
       <excludeFolder url="file://$MODULE_DIR$/symfonyApp/vendor/symfony/config" />

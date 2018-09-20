@@ -101,6 +101,12 @@
     "psr/simple-cache": {
         "version": "1.0.1"
     },
+    "sendgrid/php-http-client": {
+        "version": "3.9.6"
+    },
+    "sendgrid/sendgrid": {
+        "version": "7.2.1"
+    },
     "symfony/asset": {
         "version": "v4.1.4"
     },

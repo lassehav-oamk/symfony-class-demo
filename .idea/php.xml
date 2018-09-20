@@ -69,6 +69,8 @@
       <path value="$PROJECT_DIR$/symfonyApp/vendor/symfony/webpack-encore-pack" />
       <path value="$PROJECT_DIR$/symfonyApp/vendor/symfony/security-bundle" />
       <path value="$PROJECT_DIR$/symfonyApp/vendor/symfony/security" />
+      <path value="$PROJECT_DIR$/symfonyApp/vendor/sendgrid/sendgrid" />
+      <path value="$PROJECT_DIR$/symfonyApp/vendor/sendgrid/php-http-client" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="7.1" />

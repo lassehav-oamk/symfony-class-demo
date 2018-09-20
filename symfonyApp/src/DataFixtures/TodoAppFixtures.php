@@ -18,17 +18,18 @@ class TodoAppFixtures extends Fixture
     public function load(ObjectManager $manager)
     {
         $dummyUser = new User();
-        $dummyUser->setEmail('test@test');
+        $dummyUser->setEmail('lasse.haverinen@oamk.fi');
         $dummyUser->setUsername('tester');
         $dummyUser->setPassword(password_hash('test_password', PASSWORD_BCRYPT));
         $manager->persist($dummyUser);
 
+        /*
         $dummyUser2 = new User();
         $dummyUser2->setEmail('test2@test');
         $dummyUser2->setUsername('tester2');
         $dummyUser2->setPassword(password_hash('test_password2', PASSWORD_BCRYPT));
         $manager->persist($dummyUser2);
-
+*/
         $descriptions = array('Buy some milk',
             'Learn symfony',
             'Wash the bike',
@@ -42,7 +43,8 @@ class TodoAppFixtures extends Fixture
             $todoItem->setDescription($descriptions[$i]);
             $todoItem->setIsDone(false);
             $todoItem->setDueDate(new \DateTime());
-            $todoItem->setOwner($i % 2 ? $dummyUser : $dummyUser2);
+            //$todoItem->setOwner($i % 2 ? $dummyUser : $dummyUser2);
+            $todoItem->setOwner($dummyUser);
 
             $manager->persist($todoItem);
         }

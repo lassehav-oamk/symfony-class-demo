@@ -41,14 +41,40 @@ class TodoappCheckDueItemsCommand extends ContainerAwareCommand
 
         $todoItems = $em->getRepository(TodoItem::class)->findAll();
         $today = new \DateTime();
+        $sendgrid = new \SendGrid(getenv('SENDGRID_API_KEY'));
+
         foreach ($todoItems as $t)
         {
             if($t->getDueDate() < $today)
             {
                 $output->writeln("Description: " . $t->getDescription());
                 $output->writeln("Due date: " . $t->getDueDate()->format('d.m.Y'));
+
+                $email = new \SendGrid\Mail\Mail();
+                $email->setFrom("info@todoapp.com", "Todoapp.com");
+                $email->setSubject("Your todo item is due");
+                $email->addTo($t->getOwner()->getEmail(), "");
+                $email->addContent("text/plain", "Your todo item is due, description: " . $t->getDescription());
+
+                $htmlContent = $this->getContainer()->get('twig')->render('email/dueItem.html.twig',
+                                                                            array('description' => $t->getDescription(),
+                                                                                  'dueDate' => $t->getDueDate()));
+
+                $email->addContent("text/html", $htmlContent);
+
+
+                try {
+                    $response = $sendgrid->send($email);
+                    $output->writeln($response->statusCode());
+                    //$output->writeln($response->headers());
+                    //$output->writeln($response->body());
+                } catch (Exception $e) {
+                    $output->writeln('Caught exception: '. $e->getMessage());
+                }
             }
         }
+
+
 
         //$io->success('You have a new command! Now make it your own! Pass --help to see your options.');
     }
